@@ -1,0 +1,59 @@
+#My-Webpage {
+    font-size: 25px;
+    font-style: bold;
+    font-family: sans-serif;
+    background-color: rgb(235, 43, 14);
+    margin: inherit;
+    border: dashed 18px rgb(21, 128, 0);
+    text-align: center;
+    line-height: 1.5px;
+}
+
+img {
+    width: 100%;
+    /* height: ; */
+}
+
+p {
+    font-style: italic;
+    font-family: san-serif;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.licence {
+    font-style: bold;
+    border: 18px groove purple;
+    background: orangered;
+}
+
+#main {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.flowers {
+    width: 20%;
+    background-color: lightblue;
+    border: 8px solid blue; 
+    padding: 20px;
+    margin:10px;
+}
+#flowers-container {
+    display: flex;
+    justify-content: center;
+    border:8px solid ridge;
+    flex-wrap:wrap;
+    padding:10;
+}
+#sidebar{
+    width: 100px;
+    margin:15px;
+    padding:25px;
+    border:16px solid blue;
+    background-color:red;
+    
+}
+
